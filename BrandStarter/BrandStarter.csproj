@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-BrandStarter-E0D65E08-4154-43CE-BAE1-097E871E9AAA</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\PublishProfiles\BrandStarter20171228093435 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\BrandStarters - Web Deploy.pubxml" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\froala_blocks.css" />
+    <None Include="wwwroot\imgs\customers\adobe.svg" />
+    <None Include="wwwroot\imgs\customers\amazon.svg" />
+    <None Include="wwwroot\imgs\customers\apple.svg" />
+    <None Include="wwwroot\imgs\customers\cisco.svg" />
+    <None Include="wwwroot\imgs\customers\discovery.svg" />
+    <None Include="wwwroot\imgs\customers\ebay.svg" />
+    <None Include="wwwroot\imgs\customers\ibm.svg" />
+    <None Include="wwwroot\imgs\customers\intel.svg" />
+    <None Include="wwwroot\imgs\customers\orange.svg" />
+    <None Include="wwwroot\imgs\customers\panasonic.svg" />
+    <None Include="wwwroot\imgs\customers\salesforce.svg" />
+    <None Include="wwwroot\imgs\customers\samsung.svg" />
+    <None Include="wwwroot\imgs\idea.jpeg" />
+    <None Include="wwwroot\imgs\IMG_8071.JPG" />
+    <None Include="wwwroot\imgs\IMG_8072.JPG" />
+    <None Include="wwwroot\imgs\logo.jpg" />
+    <None Include="wwwroot\imgs\people-woman-coffee-meeting.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>

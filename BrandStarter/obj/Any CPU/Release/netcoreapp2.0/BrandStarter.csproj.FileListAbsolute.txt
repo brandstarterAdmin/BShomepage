@@ -1,0 +1,12 @@
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\bin\Any CPU\Release\netcoreapp2.0\BrandStarter.deps.json
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\bin\Any CPU\Release\netcoreapp2.0\BrandStarter.runtimeconfig.json
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\bin\Any CPU\Release\netcoreapp2.0\BrandStarter.runtimeconfig.dev.json
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\bin\Any CPU\Release\netcoreapp2.0\BrandStarter.dll
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\bin\Any CPU\Release\netcoreapp2.0\BrandStarter.pdb
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\obj\Any CPU\Release\netcoreapp2.0\BrandStarter.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\obj\Any CPU\Release\netcoreapp2.0\BrandStarter.csproj.CoreCompileInputs.cache
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\obj\Any CPU\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\obj\Any CPU\Release\netcoreapp2.0\BrandStarter.AssemblyInfoInputs.cache
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\obj\Any CPU\Release\netcoreapp2.0\BrandStarter.AssemblyInfo.cs
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\obj\Any CPU\Release\netcoreapp2.0\BrandStarter.dll
+C:\Users\Sam\Source\Repos\BShomepage\BrandStarter\obj\Any CPU\Release\netcoreapp2.0\BrandStarter.pdb

@@ -1,0 +1,51 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+<section class="fdb-block" style="background: url('@Url.Content("~/imgs/reg.jpeg")');">
+    <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-7 col-md-5 text-center">
+                    <div class="fdb-box fdb-touch">
+                        <div class="row">
+                            <div class="col">
+                                <h1>Create a new account.</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mt-4">
+                                <input asp-for="Email" class="form-control" placeholder="Email" />
+                                <span asp-validation-for="Email" class="text-danger" ></span>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <input asp-for="Password" class="form-control" placeholder="Password" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <input asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password"/>
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <button class="btn" type="submit">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+</section>
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

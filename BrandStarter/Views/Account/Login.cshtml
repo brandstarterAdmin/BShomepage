@@ -10,15 +10,15 @@
 }
 
 
-<section class="fdb-block" style="background: url('@Url.Content("~/imgs/book2.jpeg")');">
+<section class="fdb-block backphoto" style="background: url('@Url.Content("~/imgs/book2.jpeg")');">
     <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-9 col-xl-7 text-center">
+                <div class="col-8 col-md-8 col-lg-8 col-xl-7 text-center">
                     <div class="fdb-box fdb-touch">
                         <div class="row">
                             <div class="col">
-                                <img src="~/imgs/logo1.png" height="150" alt="image">
+                            
                                 <h1>Log In</h1>
                             </div>
                         </div>
@@ -53,11 +53,7 @@
                                 <a asp-action="ForgotPassword">Forgot your password?</a>
                             </p>
                             </div>
-                            <div class="row mt-4">
-                                <p>
-                                    <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">Register as a new user?</a>
-                                </p>
-                            </div>
+                           
                         </div>
                 </div>
             </div>
